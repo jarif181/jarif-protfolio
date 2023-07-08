@@ -7,6 +7,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
     
 
 }
@@ -52,4 +53,24 @@ nav  a {
     font-weight: 700;
     padding: 19px 35px 19px 36px;
 
+}
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 170px;
+    display: flex;
+    align-items: center;
+    
+}
+.parimary-buttonn{
+    border: 1px solid;
+    border-radius: 5px;
+    color: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 19px 35px 19px 36px;
+}
+.banner .profile-pic{
+    width: 500px;
 }
