@@ -8,7 +8,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin: 0px 200px;
-    
+
 
 }
 
@@ -26,21 +26,21 @@ nav {
 nav>ul {
     display: flex;
     align-items: center;
-    
+
 }
 
 nav li {
     list-style: none;
     margin-right: 50px;
-    
+
 }
 
-nav  a {
+nav a {
     text-decoration: none;
-    color:#474747 ;
+    color: #474747;
     font-size: 20px;
     font-weight: 400;
-    
+
 
 }
 
@@ -54,16 +54,25 @@ nav  a {
     padding: 19px 35px 19px 36px;
 
 }
-.header{
+
+.header {
     background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
-.banner{
-    padding: 30px 30px 30px 170px;
+
+.banner {
+    padding: 30px 30px 0px 170px;
     display: flex;
     align-items: center;
-    
+    justify-content: space-between;
+
 }
-.parimary-buttonn{
+.banner-contant{
+    max-width: 500px;
+}
+.parimary-buttonn {
     border: 1px solid;
     border-radius: 5px;
     color: #FD6E0A;
@@ -71,6 +80,43 @@ nav  a {
     font-weight: 700;
     padding: 19px 35px 19px 36px;
 }
-.banner .profile-pic{
+
+.banner .profile-pic {
     width: 500px;
 }
+
+.banner-ti {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: #474747;
+    margin-bottom: 0px;
+
+}
+
+
+
+.name {
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #181818;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.dis {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    color: #757575;
+    margin-top: 20px;
+    width: 80%;
+    margin-bottom: 30px;
+}
+/* .parimary-button ,.parimary-buttonn{
+    margin-top: 30px;
+} */
